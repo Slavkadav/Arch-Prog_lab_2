@@ -1,0 +1,11 @@
+<configuration combine.children="append">
+<imageName >${person.image.prefix}/${person.name}</imageName>
+<resources>
+    <resource>
+        <type>STUDENT</type>
+	<cafedraDirectory combine.self="cafedra">БГТУ/ИЭТУС/ПОВТиАС</cafedraDirectory>
+        <include name="ФИО человека">${project.build.finalName}.jar</include>
+	<properties> <property name="bookNumber">12324</property> <property name="certificat">oracle junior 2016</property> <property name="someName">someValue</property> дальнейшее перечисление св-в ваших персон </properties>
+    </resource>
+</resources>
+</configuration>
